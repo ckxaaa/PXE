@@ -6,11 +6,11 @@ systemctl diable firewalld
 reboot  
 tftpf无法设置开机自启，所以在重启之后请手动打开tftp服务  
 可以自行创建一个root密码  
-# grub-crypt  
+[root@localhost]#grub-crypt  
 
 
 
-PXE服务器搭建  
+# PXE服务器搭建  
 PXE远程服务器（192.168.123.2）所需准备:    
 1.安装源（系统盘文件）;  
 2.TFTP服务；  
