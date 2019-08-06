@@ -5,6 +5,9 @@ systemctl stop firewalld
 systemctl diable firewalld  
 reboot  
 tftpf无法设置开机自启，所以在重启之后请手动打开tftp服务  
+可以自行创建一个root密码  
+# grub-crypt  
+
 
 
 PXE服务器搭建  
